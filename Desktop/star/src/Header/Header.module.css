@@ -1,0 +1,23 @@
+.logo {
+    font-weight: 800;
+    font-size: 37px;
+    letter-spacing: -0.03em;
+    background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.header .container {
+    display: flex;
+    align-items: baseline;
+    gap: 95px;
+}
+
+.header__link + .header__link {
+  margin-left: 93px; 
+}
+
+.header {
+    padding: 50px 0;
+}
